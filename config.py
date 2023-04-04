@@ -17,7 +17,7 @@ class Config:
     OWNER_ID = os.environ.get("OWNER_ID", "1966376217")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
-    SESSION = os.environ.get("SESSION", "BQGYqWYAAq79U-wXJkQMdXXk6vO7XcJoQ5nQZMDjlExhKNhs87a7PyZqal_HWdY9nnrK0ovQyVLRUdHV8lUPKY1xvf_Q1BIpqPJ9M_INhUTK7BTNlEd7i_UB_VcsvZpoh_mpSQTuQDbkuQfn5KnMAqEV5u5isCqyg03gk2PgULwIdkhmGZA6YX4WNtPMlkzehl3Gz2fCYboik4Fre6TVRCycFCNRJak6M9iowuvd-pZU93WwwaaQqkvFGfHY0gq241JLle2apQSpoZAcRTkvV8tjXWYB8cuZT-S2XdYlA-mfJ_uEMTTFFShjVicVDONN_3OrbT7mJ9IlaIanzltho_UFe1sV0wAAAABKf7lXAA")
+    SESSION = os.environ.get("SESSION", "BQGxRSAAeWqibGHhOO0vjkM5dNc6NAabU7gaPxZDFUs0x1Qa39N4mdHfKG5QCPfo7zLH_M-xxZaJxLCO26_KD4ALRTvt_klxrVBeg_BsjSUxN9DituLxeoQY2Se0AnT4-bpLZu_4YbHQsT7NMoHWQm9krYPLTmXXVwTFaB36tnFnRhbPnuzmrcLBTyGvym8KDU6zCKsSvd1yqEDEGD0dW__IcJ2KXprotyZDmFHpOs-Ag8XlnryaIZONh5PTOJUtAD_XXKv_yTXTnl0QRsJyx2F0Gy4B4DStae83FoGEcKh7UVL4KUmzpnuve9x3yqeLhMuCFzNPUfIyyVxaL76Ex1BB8CPnCwAAAABF5vF9AA")
     TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001927033569"))
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
