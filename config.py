@@ -9,7 +9,7 @@ class Config:
     
     API_ID = int(os.environ.get("API_ID", "28394784"))
     API_HASH = os.environ.get("API_HASH", "9544a3ad7d8660acbae0dcf553c808e5")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6047745215:AAEPhzBcwCliwNV9wxoMSWo93WSvBQByQlc") 
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "6039043446:AAHf8ODju2FpNFBXj7v2-MwC0HxpLAu_0wU") 
     BOT_SESSION = os.environ.get("BOT_SESSION", "bot") 
     CAPTION = os.environ.get("CAPTION", "")
     FROM_CHANNEL = os.environ.get("FROM_CHANNEL", "@sai_movies_update")
@@ -17,7 +17,7 @@ class Config:
     OWNER_ID = os.environ.get("OWNER_ID", "1966376217")
     LIMIT = int(os.environ.get("LIMIT", "25000"))
     SKIP_NO = int(os.environ.get("SKIP_NO", "0"))
-    SESSION = os.environ.get("SESSION", "BQGxRSAAeWqibGHhOO0vjkM5dNc6NAabU7gaPxZDFUs0x1Qa39N4mdHfKG5QCPfo7zLH_M-xxZaJxLCO26_KD4ALRTvt_klxrVBeg_BsjSUxN9DituLxeoQY2Se0AnT4-bpLZu_4YbHQsT7NMoHWQm9krYPLTmXXVwTFaB36tnFnRhbPnuzmrcLBTyGvym8KDU6zCKsSvd1yqEDEGD0dW__IcJ2KXprotyZDmFHpOs-Ag8XlnryaIZONh5PTOJUtAD_XXKv_yTXTnl0QRsJyx2F0Gy4B4DStae83FoGEcKh7UVL4KUmzpnuve9x3yqeLhMuCFzNPUfIyyVxaL76Ex1BB8CPnCwAAAABF5vF9AA")
-    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001927033569"))
+    SESSION = os.environ.get("SESSION", "BQGxRSAACtT62Vgw4WrpSTTksGRAeN5SNJz6k8gtsti5lgMfACzQ84_2jRozB95aBKyAoTOMgfCUuQCKSz-frS4AJB24M1ADfPUGpimbY7fcNzweu8kE4lTGIegVq5i-meTAPO02x7eeCEH0fOlX3VYH8yjv0OXc6i1UzCiLzGqnajTdpamMTiOt4Goel84FYrArsE1J0rbE7FXMVhJLLS0jM_mLKHCfxPPqJ8nUeuDYLTc_A9YKS6lLDHiMRHW9mh3m2DlN_0TwtqoYogZ0wynqimdt90pmBxgXDIvl8fU8YzZrplTEL59v_od7N1-Sz2yxK1kQqxERfRA9gtAwegweXlOwrgAAAABF5vF9AA")
+    TO_CHANNEL = int(os.environ.get("TO_CHANNEL", "-1001795790118"))
 def LOGGER(name: str) -> logging.Logger:
     return logging.getLogger(name)
